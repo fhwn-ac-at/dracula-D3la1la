@@ -1,0 +1,5 @@
+compile
+clang -Wall -Wextra -Werror -Iinclude -o snl src/main.c src/board.c src/game.c src/stats.c
+
+cmd
+./snl 100 5000 6 1 1000
